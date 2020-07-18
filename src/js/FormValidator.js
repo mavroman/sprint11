@@ -1,5 +1,5 @@
-class FormValidator {
-    constructor(form, error) {//1.форма  2.кнопка. 3. блок ошибок     //элемент формы, //или элемент попапа, внутри которого находится эта форма.
+export class FormValidator {
+    constructor(form, error) {
       this.form = form;
       this.error = error;
       this.errorElements = this.form.querySelectorAll(".error");
